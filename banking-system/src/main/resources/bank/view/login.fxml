@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+           fx:controller="bank.view.LoginView">
+    <VBox spacing="12" maxWidth="340" maxHeight="-Infinity" alignment="CENTER_LEFT">
+        <padding>
+            <Insets top="24" right="24" bottom="24" left="24"/>
+        </padding>
+        <Label text="Banking System" styleClass="title"/>
+        <Label text="Log in to manage your accounts" styleClass="hint-label"/>
+        <Label text="Customer ID"/>
+        <TextField fx:id="customerIdField" promptText="e.g. C001"/>
+        <Label text="Password"/>
+        <PasswordField fx:id="passwordField" promptText="Password"/>
+        <Button text="Login" onAction="#onLogin" defaultButton="true" maxWidth="Infinity"
+                styleClass="primary-button"/>
+        <Label fx:id="messageLabel" styleClass="error-label" wrapText="true"/>
+        <Hyperlink text="New customer? Register here" onAction="#onRegister"/>
+    </VBox>
+</StackPane>
