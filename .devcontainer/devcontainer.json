@@ -12,7 +12,7 @@
   "portsAttributes": {
     "6080": {
       "label": "Desktop (open this to see the JavaFX window)",
-      "onAutoForward": "notify"
+      "onAutoForward": "openBrowser"
     }
   },
   "postCreateCommand": "sudo apt-get update && sudo apt-get install -y libgtk-3-0 libgl1 libxtst6 libxxf86vm1 libasound2 || true",
