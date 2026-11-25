@@ -1,8 +1,0 @@
-.root { -fx-font-size: 13px; }
-.title { -fx-font-size: 22px; -fx-font-weight: bold; -fx-text-fill: #1e3a8a; }
-.section { -fx-font-size: 15px; -fx-font-weight: bold; }
-.error-label { -fx-text-fill: #b91c1c; }
-.ok-label { -fx-text-fill: #15803d; }
-.hint-label { -fx-text-fill: #475569; -fx-font-size: 12px; }
-.primary-button { -fx-background-color: #2563eb; -fx-text-fill: white; -fx-font-weight: bold; }
-.primary-button:hover { -fx-background-color: #1d4ed8; }
